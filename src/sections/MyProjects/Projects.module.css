@@ -1,0 +1,85 @@
+.sectionTitle{
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.sectionDescription{
+    font-size: 18px;
+    font-family: 'Roboto Mono', monospace;
+    font-weight: 400;
+    text-align: center;
+}
+
+.city-cards {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+    padding-top: 55px;
+    padding-bottom: 45px;
+    flex-wrap: wrap; /* Make it responsive */
+}
+
+.card {
+    background-color: #2c2c2c; /* Default dark theme background */
+    border-radius: 12px;
+    overflow: hidden;
+    width: 300px;
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+    transition: transform 0.3s ease;
+}
+
+.card:hover {
+    transform: translateY(-10px);
+}
+
+.image-container {
+    position: relative;
+    width: 100%;
+    height: 200px;
+    background-size: cover;
+    background-position: center;
+}
+
+.overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+}
+
+.content {
+    padding: 20px;
+}
+
+.content h2 {
+    margin: 0 0 10px 0;
+    font-size: 1.5rem;
+    color: var(--text-color);
+}
+
+.content p {
+    font-size: 0.9rem;
+    color: var(--text-color);
+    line-height: 1.5;
+}
+
+/* Dark Theme */
+.city-cards.dark .card {
+    background-color: #2c2c2c; /* Dark background */
+    color: #fff; /* Light text color */
+}
+
+/* Light Theme */
+.city-cards.light .card {
+    background-color: #fff !important; /* Light background */
+    color: #000; /* Dark text color */
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+    .card {
+        width: 100%; /* Make each card take full width on small screens */
+    }
+}

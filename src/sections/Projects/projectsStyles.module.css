@@ -29,6 +29,10 @@
     gap: 30px;
   }
 
+  .sectionDescription{
+    margin-bottom: 20px;
+  }
+
   p{
     align-self: left;
     font-size: 14px;

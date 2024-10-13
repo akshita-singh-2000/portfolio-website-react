@@ -3,18 +3,24 @@
     padding: 2rem;
     max-width: 80%;
     margin: 0 auto;
-    width: 65%;
+    width: 70%;
+    justify-content: center;
+    min-height: 500px;
+    max-height: 100%;
   }
   
   .sectionTitle {
-    margin-bottom: 10px;
+    margin-bottom: 40px;
     font-size: 40px;
     text-align: center;
     font-weight: 600;
     color: var(--text-color);
-    padding-bottom:20px;
+    padding-bottom:15px;
   }
   
+  .h3 {
+    font-size: 18px;
+  }
   .educationList {
     display: flex;
     flex-direction: column;
@@ -41,7 +47,8 @@
     max-width: 250px;
     object-fit: contain;
     align-self: center;
-    padding: 15px;
+    padding: 12px;
+    margin-right: 20px;
     border-radius: 30px;
   }
   
@@ -50,7 +57,7 @@
   }
   
   .degreeBox {
-    margin-bottom: 0.5rem;
+    margin-bottom: 0.1rem;
   }
   
   .degree.light {
@@ -60,7 +67,7 @@
     display: inline-block;
     padding: 0.25rem 0.5rem;
     border-radius: 4px;
-    margin-bottom: 0.25rem;
+    margin-bottom: 0.2rem;
   }
 
   .degree.dark{
@@ -70,12 +77,14 @@
     display: inline-block;
     padding: 0.25rem 0.5rem;
     border-radius: 4px;
-    margin-bottom: 0.25rem;
+    margin-bottom: 0.2rem;
   }
   
   .university {
     font-size: 18px;
     font-weight: normal;
+    margin-top: 15px;
+    margin-bottom: 15px;
   }
   
   .coursesTitle {
@@ -90,7 +99,9 @@
   
   .coursesList li {
     margin-bottom: 0.25rem;
-    font-size: 0.9rem;
+    margin-left: 1.25rem;
+    font-size: 12px;
+    font-family: 'Roboto Mono', monospace;
   }
   
   .coursesList li::before {
@@ -112,6 +123,11 @@
     font-weight: bold;
     font-size: 18px;
     font-family: 'Roboto Mono', monospace;
+    padding-left: 10px;
+  }
+
+  .date {
+    width: 141px;
   }
   
   @media (max-width: 768px) {

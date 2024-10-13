@@ -9,6 +9,8 @@ function projects() {
   return (
     <section id="projects" className={styles.container}>
       <h1 className='sectionTitle'>Projects </h1>
+      <h3 className='sectionDescription'>Explore some of my recent work below. <br/>
+      Got a project idea? Let’s collaborate and create something amazing together! </h3>
       <div className={styles.projectsContainer}>
       <ProjectCard 
             src={projectImage1} 
