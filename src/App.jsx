@@ -3,8 +3,11 @@ import Intro from './sections/Intro/Intro'
 
 // Components
 function App() {
-  return <><Intro />
-  </>;
+  return (
+    <>
+      <Intro/>
+    </>
+  );
 }
 
 export default App;
