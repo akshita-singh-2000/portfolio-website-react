@@ -4,7 +4,6 @@ import Projects from './sections/MyProjects/Projects'
 import Skills from './sections/Skills/Skills';
 import Interests from './sections/Interest/Interest';
 import Education from './sections/Education/Education';
-import Contact from './sections/Contact/Contact';
 
 // Components
 function App() {
@@ -15,7 +14,6 @@ function App() {
       <Projects/>
       <Interests />
       <Skills />
-      <Contact />
       
     </>
   );
