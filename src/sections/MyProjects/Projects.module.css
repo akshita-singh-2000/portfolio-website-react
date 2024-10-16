@@ -1,9 +1,32 @@
-.sectionTitle{
+:root {
+    --bg-color-dark: #222;
+    --bg-color-light: #f6f5f5;
+    --text-color-dark: #ffffff;
+    --text-color-light: #000000;
+    --card-bg-dark: #2d2d2d;
+    --card-bg-light: #f0f0f0;
+}
+
+.container {
+    transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+.container.dark {
+    background-color: var(--bg-color-dark);
+    color: var(--text-color-dark);
+}
+
+.container.light {
+    background-color: var(--bg-color-light);
+    color: var(--text-color-light);
+}
+
+.sectionTitle {
     text-align: center;
     margin-bottom: 20px;
 }
 
-.sectionDescription{
+.sectionDescription {
     font-size: 18px;
     font-family: 'Roboto Mono', monospace;
     font-weight: 400;
@@ -17,16 +40,25 @@
     gap: 30px;
     padding-top: 55px;
     padding-bottom: 45px;
-    flex-wrap: wrap; /* Make it responsive */
+    flex-wrap: wrap;
 }
 
 .card {
-    background-color: #2c2c2c; /* Default dark theme background */
     border-radius: 12px;
     overflow: hidden;
     width: 300px;
     box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
-    transition: transform 0.3s ease;
+    transition: transform 0.3s ease, background-color 0.3s ease, color 0.3s ease;
+}
+
+.dark .card {
+    background-color: var(--card-bg-dark);
+    color: var(--text-color-dark);
+}
+
+.light .card {
+    background-color: var(--card-bg-light);
+    color: var(--text-color-light);
 }
 
 .card:hover {
@@ -52,34 +84,23 @@
 .content {
     padding: 20px;
 }
-
+.cardLink {
+    text-decoration: none;
+}
 .content h2 {
     margin: 0 0 10px 0;
-    font-size: 1.5rem;
-    color: var(--text-color);
+    font-size: 1.2rem;
+    text-decoration-line: none;
 }
 
 .content p {
     font-size: 0.9rem;
-    color: var(--text-color);
     line-height: 1.5;
+    text-decoration: none;
 }
 
-/* Dark Theme */
-.city-cards.dark .card {
-    background-color: #2c2c2c; /* Dark background */
-    color: #fff; /* Light text color */
-}
-
-/* Light Theme */
-.city-cards.light .card {
-    background-color: #fff !important; /* Light background */
-    color: #000; /* Dark text color */
-}
-
-/* Responsive Design */
 @media (max-width: 768px) {
     .card {
-        width: 100%; /* Make each card take full width on small screens */
+        width: 100%;
     }
 }
