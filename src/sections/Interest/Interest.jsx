@@ -20,22 +20,22 @@ function SkillsOverview() {
     {
       Icon: Brain,
       title: "Machine Learning",
-      description: "Machine Learning is more than an API call to Scikit-learn. I love math and theory as well as the implementation."
+      description: "For me, machine learning goes beyond just making API calls to Scikit-learn. I have a deep passion for understanding the underlying math and theory, as well as the hands-on implementation of these concepts."
     },
     {
       Icon: BarChart2,
       title: "Data Analysis",
-      description: "I love telling a story. Making beautiful and compelling dashboards and presenting is one of my favorite skills."
+      description: "Data analysis is one of my key strengths, and I love diving deep into large datasets to create compelling dashboards that tell a story. I have enjoy working with tools like Tableau, Power BI, and Flourish, among others."
     },
     {
       Icon: Cloud,
       title: "Cloud Computing",
-      description: "With extensive experience in building end-to-end data pipelines on AWS, I am currently expanding my expertise by mastering Azure through various hands-on projects."
+      description: "With extensive experience in building end-to-end data pipelines on AWS, I am currently broadening my cloud computing skill set by gaining in-depth experience with Azure through a variety of hands-on projects."
     },
     {
       Icon: MessageSquare,
-      title: "NLP",
-      description: "I specialize in sentiment analysis and recommendation systems using NLP. Currently exploring LangChain and the RAG framework."
+      title: "LLMs/GenAI",
+      description: "I am actively exploring the capabilities of different LLMs and learning how to craft effective prompts. Currently, I’m working with GraphRAG and researching libraries related to Named Entity Recognition and Resolution (NER).."
     }
   ];
 

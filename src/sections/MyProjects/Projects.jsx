@@ -5,7 +5,8 @@ import projectImage1 from '../../assets/BrainTumorProject.png';
 import projectImage2 from '../../assets/llm.jpg';
 import projectImage3 from '../../assets/roomOccupancy.jpg';
 import projectImage4 from '../../assets/churn.jpeg';
-import projectImage5 from '../../assets/walmart.jpg';
+import projectImage5 from '../../assets/musicPlayer.jpg';
+import projectImage6 from '../../assets/walmart.jpg';
 
 const CityCards = () => {
   const { theme } = useTheme();
@@ -28,29 +29,29 @@ const CityCards = () => {
     {
       name: 'Room Occupancy Estimation (Model Building)',
       image: projectImage3,
-      color: 'rgba(255, 165, 0, 0.2)',
-      description: 'The primary objective of this project was to develop a room occupancy estimator by constructing models from scratch. All models were studied in depth, including their underlying conditions, assumptions, and the mathematics behind them.',
+      color: 'rgba(255, 165, 0, 0.3)',
+      description: 'The primary objective of this project was to develop a room occupancy estimator by constructing ML models from scratch without relying on any external libraries. All models were studied in depth, including their underlying conditions, assumptions, and the mathematics behind them.',
       githubUrl: 'https://github.com/akshita-singh-2000/room-occupancy-estimation'
     },
     {
-      name: 'Walmart Sales Forecasting',
+      name: 'Emotion Based Music Player',
       image: projectImage5,
-      color: 'rgba(34,139,34, 0.4)',
-      description: '',
-      githubUrl: 'https://github.com/akshita-singh-2000/Walmart-Sales-Forcasting'
+      color: 'rgba(34,139,34, 0.2)',
+      description: 'This project focused on researching and implementing emotion detection algorithms to build a music player that dynamically selects songs based on facial expressions. Extensive research guided the selection of the optimal model, which was then integrated with a custom-built Web interface for real-time emotion-based music selection',
+      githubUrl: 'https://github.com/akshita-singh-2000/'
     },
     {
-      name: 'Skin Leasion Detection',
-      image: projectImage2,
+      name: 'Walmart Sales Forceasting',
+      image: projectImage6,
       color: 'rgba(249, 105, 14, 0.2)',
-      description: '',
-      githubUrl: 'https://github.com/akshita-singh-2000/Skin-lesion-detection'
+      description: "This project developed a robust machine learning pipeline to forecast Walmart's weekly sales from three integrated datasets. Used a custom Weighted Mean Absolute Error (WMAE) metric for enhanced accuracy during peak sales periods and the use of stationarity testing and decomposition for ARIMA to improve forecasting performance.",
+      githubUrl: 'https://github.com/akshita-singh-2000/Walmart-Sales-Forcasting'
     },
     {
       name: 'Telecom Churn Prediction',
       image: projectImage4,
-      color: 'rgba(255,20,147, 0.3)',
-      description: '',
+      color: 'rgba(255,20,147, 0.2)',
+      description: 'This project focused on predicting customer churn through machine learning. Extensive EDA revealed key patterns, and data preprocessing included standardization, PCA and SMOTE addressing class imbalance. After evaluating various models based on feature characteristics and performance, the best-performing model was selected.',
       githubUrl: 'https://github.com/akshita-singh-2000/Telcom-company-churn-prediction'
     }
     

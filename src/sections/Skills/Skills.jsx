@@ -4,6 +4,7 @@ import checkMarkIconLight from '../../assets/checkmark-light.svg';
 import SkillList from '../../common/SkillList';
 import { useTheme } from '../../common/ThemeContext';
 
+
 function Skills() {
   const { theme } = useTheme();
   const checkMarkIcon = theme === 'light' ? checkMarkIconLight : checkMarkIconDark;
