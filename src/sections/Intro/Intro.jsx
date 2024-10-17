@@ -24,7 +24,6 @@ function Intro() {
     return (
         <section id="intro" className={styles.container}>
             <nav className={`${styles.navbar} ${styles[theme]}`}>
-                <a href="/" className={styles.navbar_title}>Portfolio</a>
                 <div className={`${styles.navbar_menu} ${isMenuOpen ? styles.active : ''}`}>
                     <ul className={styles.navbar_menu_items}>
                         {['Education', 'Projects', 'Interests', 'Skills'].map((item) => (
