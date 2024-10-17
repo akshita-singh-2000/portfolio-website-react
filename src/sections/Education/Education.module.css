@@ -132,7 +132,7 @@
     width: 141px;
   }
   
-  @media (max-width: 768px) {
+  @media (max-width: 790px) {
     .educationEntry {
       flex-direction: column;
     }
@@ -142,9 +142,6 @@
     }
   
     .info {
-      flex-direction: row;
-      justify-content: space-between;
-      align-items: center;
-      width: 100%;
+      visibility: hidden;
     }
   }

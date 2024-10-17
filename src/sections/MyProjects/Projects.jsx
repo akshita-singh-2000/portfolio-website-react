@@ -24,7 +24,7 @@ const CityCards = () => {
       image: projectImage2,
       color: 'rgba(0, 255, 255, 0.2)',
       description: 'Developed a system leveraging LLMs and prompt engineering to generate knowledge graphs from unstructured and semi-structured data, automating Cypher query generation for Neo4j. Built a Streamlit-based chatbot to answer user queries and provide corresponding Cypher queries.',
-      githubUrl: 'https://github.com/yourusername/knowledge-graph-graphrag'
+      githubUrl: 'https://github.com/akshita-singh-2000/Knowledge-graph-creation-and-GraphRAG'
     },
     {
       name: 'Room Occupancy Estimation (Model Building)',
@@ -38,7 +38,7 @@ const CityCards = () => {
       image: projectImage5,
       color: 'rgba(34,139,34, 0.2)',
       description: 'This project focused on researching and implementing emotion detection algorithms to build a music player that dynamically selects songs based on facial expressions. Extensive research guided the selection of the optimal model, which was then integrated with a custom-built Web interface for real-time emotion-based music selection',
-      githubUrl: 'https://github.com/akshita-singh-2000/'
+      githubUrl: 'https://www.irjet.net/archives/V9/i4/IRJET-V9I4123.pdf'
     },
     {
       name: 'Walmart Sales Forceasting',
