@@ -40,7 +40,7 @@ function SkillsOverview() {
   ];
 
   return (
-    <section id="skills-overview" className={styles.container}>
+    <section id="Interests" className={styles.container}>
       <h1 className="sectionTitle">Area of Interest</h1>
       <div className={styles.skillsGrid}>
         {skills.map((skill, index) => (

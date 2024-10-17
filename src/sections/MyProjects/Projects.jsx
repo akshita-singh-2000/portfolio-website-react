@@ -58,7 +58,7 @@ const CityCards = () => {
   ];
 
   return (
-    <section id="projects" className={`${styles.container} ${styles[theme]}`}>
+    <section id="Projects" className={`${styles.container} ${styles[theme]}`}>
       <h1 className={styles.sectionTitle}>Projects</h1>
       <h3 className={styles.sectionDescription}>
         Explore some of my recent work below. <br />

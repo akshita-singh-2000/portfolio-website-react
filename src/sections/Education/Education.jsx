@@ -63,7 +63,7 @@ const EducationEntry = ({ logo, degree, university, courses, date, gpa }) => {
     ];
   
     return (
-      <section id="education" className={styles.container}>
+      <section id="Education" className={styles.container}>
         <h1 className={styles.sectionTitle}>Education</h1>
         <div className={styles.educationList}>
           {educationData.map((edu, index) => (
