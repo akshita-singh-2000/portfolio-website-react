@@ -63,3 +63,11 @@
       font-size: 1rem;
     }
   }
+
+  @media (max-width: 760px) {
+    .skillTitle {
+     text-align: center;
+  }
+  }
+
+  

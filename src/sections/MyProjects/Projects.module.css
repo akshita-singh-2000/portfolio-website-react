@@ -99,11 +99,7 @@
     text-decoration: none;
 }
 
-@media (max-width: 768px) {
-    .city-cards{
-        margin-left: 30px;
-    }
-
+@media (max-width: 760px) {
     h2{
         text-align: left;
         padding-left: 0%;
@@ -111,10 +107,14 @@
 
     h3{
         width: 95%;
-        font-size: 18px;
+        font-size: 16px;
     }
     .card {
         width: 95%;
+        margin-left: 2.5%;
+    }
+    .div{
+        margin-left: 0;
     }
 
 }

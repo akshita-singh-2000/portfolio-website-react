@@ -42,7 +42,7 @@ function Intro() {
                 <img className={styles.colorMode} src={themeIcon} alt='Toggle color mode' onClick={toggleTheme} />
             </div>
             <div className={styles.info}>
-                <h2>Hello,<br /></h2>
+                <h2 className={styles.hello}>Hello,<br /></h2>
                 <h1>I'm Akshita Singh</h1>
                 <span>
                     <a href='https://www.linkedin.com/in/singh-akshi/' target='_blank' rel="noopener noreferrer">

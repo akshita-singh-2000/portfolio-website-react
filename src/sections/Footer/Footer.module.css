@@ -1,0 +1,132 @@
+
+html, body {
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden;
+}
+.footer {
+    position: relative;
+    padding: 2rem 6rem;
+    min-height: 200px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    background-size: cover;
+    background-position: center;
+    font-family: monospace, sans-serif;
+    gap: 0;
+  }
+  
+  .light {
+    background-image: url('../../assets/light-footer.png');
+    background-size: 100% 100%;
+    color: #000;
+  }
+  
+  .dark {
+    background-image: url('../../assets/dark-footer.png');
+    color: #fff;
+    background-size: 100% 100%;
+  }
+  
+  .content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 90px;
+    width: 100%;
+  }
+  
+  .title {
+    font-size: 3rem;
+    font-weight: bold;
+    margin: 0;
+    color: var(--btn-color);
+  }
+  
+  .emailContainer {
+    display: flex;
+    align-items: center;
+    padding: 3px;
+  }
+  
+  .emailIcon {
+    margin-right: 1rem;
+    color: var(--btn-color);
+  }
+  
+  .emailContent {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .emailLabel {
+    font-size: 1rem;
+    color: var(--btn-color);
+    margin-bottom: 0.25rem;
+  }
+
+  .emailAddress {
+    font-size: 0.9rem;
+  }
+  
+  .copyright {
+    font-size: 0.8rem;
+    text-align: center;
+    margin-top: 2rem;
+  }
+  
+  /* Responsive styles */
+  @media (max-width: 480px) {
+    .footer {
+      padding: 1.5rem;
+    }
+  
+    .title {
+      font-size: 1.5rem;
+      padding-left: 0;
+    }
+    h2 {
+        padding-left: 0;
+    }
+  
+    .emailLabel {
+      font-size: 0.9rem;
+    }
+  
+    .emailAddress {
+      font-size: 0.8rem;
+    }
+  
+    .copyright {
+      font-size: 0.7rem;
+    }
+  }
+  
+  @media (max-width: 799px) {
+    .footer {
+      padding: 2rem;
+    }
+  
+    .content {
+      flex-direction: column;
+      align-items: center;
+    }
+
+    h2 {
+        padding-left: 0;
+    }
+  
+    .title {
+      font-size: 2.5rem;
+      margin-bottom: 1rem;
+      text-align: center;
+      padding-left: 0;
+    }
+  
+    .emailContainer {
+      justify-content: center;
+    }
+  }
+  
+  

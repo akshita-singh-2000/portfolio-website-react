@@ -25,7 +25,7 @@ function SkillsOverview() {
     {
       Icon: BarChart2,
       title: "Data Analysis",
-      description: "Data analysis is one of my key strengths, and I love diving deep into large datasets to create compelling dashboards that tell a story. I have enjoy working with tools like Tableau, Power BI, and Flourish, among others."
+      description: "Data analysis is one of my key strengths, and I love diving deep into large datasets to create compelling dashboards that tell a story. I enjoy working with tools like Tableau, Power BI, and Flourish, among others."
     },
     {
       Icon: Cloud,
@@ -35,7 +35,7 @@ function SkillsOverview() {
     {
       Icon: MessageSquare,
       title: "LLMs/GenAI",
-      description: "I am actively exploring the capabilities of different LLMs and learning how to craft effective prompts. Currently, I’m working with GraphRAG and researching libraries related to Named Entity Recognition and Resolution (NER).."
+      description: "I am actively exploring the capabilities of different LLMs and learning how to craft effective prompts. Currently, I’m working with GraphRAG and researching libraries related to Named Entity Recognition and Resolution (NER)."
     }
   ];
 

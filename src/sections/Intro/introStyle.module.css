@@ -156,8 +156,8 @@
       padding-top: 100px
     }
 
-    h2 {
-      padding-left: 10% !important;
+    .hello {
+      padding-left: 10%;
     }
 
     .navbar{
