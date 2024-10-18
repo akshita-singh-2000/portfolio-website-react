@@ -1,5 +1,5 @@
 import React from 'react';
-import styles from './FOOTER.module.css';
+import styles from './Footer.module.css';
 import { Mail } from 'lucide-react';
 import { useTheme } from '../../common/ThemeContext';
 

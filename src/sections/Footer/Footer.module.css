@@ -1,12 +1,16 @@
 
-html, body {
-    margin: 0;
-    padding: 0;
-    overflow-x: hidden;
+#root footer {
+    gap: 0px !important;
 }
+
+body {
+  margin: 0;
+}
+
 .footer {
     position: relative;
     padding: 2rem 6rem;
+    margin-top: 80px;
     min-height: 200px;
     display: flex;
     flex-direction: column;
@@ -102,7 +106,7 @@ html, body {
       font-size: 0.7rem;
     }
   }
-  
+
   @media (max-width: 799px) {
     .footer {
       padding: 2rem;
