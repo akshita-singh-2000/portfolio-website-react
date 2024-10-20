@@ -19,7 +19,7 @@ const Footer = () => {
         </div>
       </div>
       <div className={styles.copyright}>
-        © 2024 AKSHITA SINGH | ALL RIGHTS RESEARVED
+        © 2024 AKSHITA SINGH 
       </div>
     </footer>
   );
