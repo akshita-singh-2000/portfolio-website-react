@@ -24,6 +24,7 @@
     row-gap: 40px;
     max-width: 26ch;
     font-size: 16px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
   }
   
   hr {
@@ -48,3 +49,9 @@
       width: 300px;
     }
   }
+
+  @media (max-width: 799px) {
+    .container{
+      display: none;
+  }
+}

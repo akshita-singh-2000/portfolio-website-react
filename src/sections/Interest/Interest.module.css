@@ -66,7 +66,7 @@
     }
   }
 
-  @media (max-width: 760px) {
+  @media (max-width: 799px) {
     .container{
       margin-bottom: 80px;
     }
