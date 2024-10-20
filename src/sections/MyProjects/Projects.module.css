@@ -10,6 +10,7 @@
 .container {
     transition: background-color 0.3s ease, color 0.3s ease;
     margin: 8% auto;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
 .container.dark {
@@ -29,7 +30,7 @@
 
 .sectionDescription {
     font-size: 18px;
-    font-family: 'Roboto Mono', monospace;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     font-weight: 400;
     text-align: center;
 }
@@ -92,12 +93,14 @@
     margin: 0 0 10px 0;
     font-size: 1.2rem;
     text-decoration-line: none;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
 .content p {
     font-size: 0.9rem;
     line-height: 1.5;
     text-decoration: none;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
 @media (max-width: 760px) {

@@ -5,6 +5,7 @@ import Skills from './sections/Skills/Skills';
 import Interests from './sections/Interest/Interest';
 import Education from './sections/Education/Education';
 import Footer from './sections/Footer/Footer';
+import Experience from './sections/Experience/Experience';
 
 
 // Components
@@ -13,6 +14,7 @@ function App() {
     <>
       <Intro/>
       <Education />
+      <Experience />
       <Projects/>
       <Interests />
       <Skills />

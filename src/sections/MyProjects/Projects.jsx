@@ -13,7 +13,7 @@ const CityCards = () => {
 
   const cities = [
     {
-      name: 'Brain Tumor Classification',
+      name: 'Brain Tumor Classification (MLOps)',
       image: projectImage1,
       color: 'rgba(138, 43, 226, 0.2)',
       description: 'Developed and deployed a brain tumor classification model using MLOps to streamline workflows. Automated data preprocessing, model training, and retraining with Apache Airflow, and managed CI/CD workflows on GCP via GitHub Actions. Built a Tableau dashboard for real-time monitoring using parsed log data stored in PostgreSQL.',
