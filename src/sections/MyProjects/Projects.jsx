@@ -13,13 +13,15 @@ const CityCards = () => {
 
   const cities = [
     {
-      name: 'Brain Tumor Classification (MLOps)',
+      skills: ["Python","Git", "Docker", "Airflow", "GCP", "CI/CD","Tableau", "Linux"],
+      name: 'Brain Tumor Classification',
       image: projectImage1,
       color: 'rgba(138, 43, 226, 0.2)',
-      description: 'Developed and deployed a brain tumor classification model using MLOps to streamline workflows. Automated data preprocessing, model training, and retraining with Apache Airflow, and managed CI/CD workflows on GCP via GitHub Actions. Built a Tableau dashboard for real-time monitoring using parsed log data stored in PostgreSQL.',
+      description: 'Developed and deployed a brain tumor classification model using MLOps. Automated data preprocessing, model training, and retraining with Apache Airflow, and managed CI/CD workflows on GCP via GitHub Actions. Built a Tableau dashboard for real-time monitoring using parsed log data stored in PostgreSQL.',
       githubUrl: 'https://github.com/akshita-singh-2000/MLOps-Brain-Tumor-Classification'
     },
     {
+      skills: ["Python","GPT (LLM)", "Neo4j", "Streamlit"],
       name: 'AI Powered Knowledge Graph Creation & Querying Using GraphRAG',
       image: projectImage2,
       color: 'rgba(0, 255, 255, 0.2)',
@@ -27,6 +29,7 @@ const CityCards = () => {
       githubUrl: 'https://github.com/akshita-singh-2000/Knowledge-graph-creation-and-GraphRAG'
     },
     {
+      skills: ["Python (OOP)","Numpy", "Linear Algebra"],
       name: 'Room Occupancy Estimation (Model Building)',
       image: projectImage3,
       color: 'rgba(255, 165, 0, 0.3)',
@@ -34,6 +37,7 @@ const CityCards = () => {
       githubUrl: 'https://github.com/akshita-singh-2000/room-occupancy-estimation'
     },
     {
+      skills: ["Python","Deep learning","Web Developemt"],
       name: 'Emotion Based Music Player',
       image: projectImage5,
       color: 'rgba(34,139,34, 0.2)',
@@ -41,6 +45,7 @@ const CityCards = () => {
       githubUrl: 'https://www.irjet.net/archives/V9/i4/IRJET-V9I4123.pdf'
     },
     {
+      skills: ["Python","EDA", "Time Series"],
       name: 'Walmart Sales Forceasting',
       image: projectImage6,
       color: 'rgba(249, 105, 14, 0.2)',
@@ -48,6 +53,7 @@ const CityCards = () => {
       githubUrl: 'https://github.com/akshita-singh-2000/Walmart-Sales-Forcasting'
     },
     {
+      skills: ["Python","EDA", "Machine Learning"],
       name: 'Telecom Churn Prediction',
       image: projectImage4,
       color: 'rgba(255,20,147, 0.2)',
@@ -83,6 +89,11 @@ const CityCards = () => {
               </div>
               <div className={styles.content}>
                 <h2>{city.name}</h2>
+                <div className={styles.skills}>
+                  {city.skills.map((skill, idx) => (
+                    <div key={idx} className={styles.skill}>{skill}</div>
+                  ))}
+                </div>
                 <p>{city.description}</p>
               </div>
             </div>

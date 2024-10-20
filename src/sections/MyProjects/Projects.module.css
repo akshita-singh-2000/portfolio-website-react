@@ -82,6 +82,34 @@
     right: 0;
     bottom: 0;
 }
+.skills {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 4px;
+    list-style-type: none;
+    padding: 0;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    
+  }
+  
+  .skill {
+    padding: 2px 10px;
+    border-radius: 20px;
+    font-size: 11px;
+    font-weight: none;
+    color: white;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  }
+  
+  .skill:nth-child(1) { background-color: #9d1aa6; }
+  .skill:nth-child(2) { background-color: #8a2be2; }
+  .skill:nth-child(3) { background-color: #4169e1; }
+  .skill:nth-child(4) { background-color: #1e90ff; }
+  .skill:nth-child(5) { background-color: #03a4a7; }
+  .skill:nth-child(6) { background-color: #26a463; }
+  .skill:nth-child(7) { background-color: #be623b; }
+  .skill:nth-child(8) { background-color: #9b2f2f; }
 
 .content {
     padding: 20px;
@@ -97,7 +125,7 @@
 }
 
 .content p {
-    font-size: 0.9rem;
+    font-size: 14px;
     line-height: 1.5;
     text-decoration: none;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
