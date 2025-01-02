@@ -4,7 +4,7 @@ import styles from './Experience.module.css';
 const Experience = () => {
   const experiences = [
     {
-      period: "Jan 2024 - Present",
+      period: "Jan 2024 - Dec 2024",
       title: "Graduate Course Assistant",
       company: "Northeastern University, Boston, MA",
       responsibilities: [
@@ -38,7 +38,7 @@ const Experience = () => {
         skills: ["AWS", "ETL", "Python", "JavaScript", "Dataweave","Data Modeling"]
       },
       {
-        period: "Jan 2022 - Jul 2022",
+        period: "Jun 2021 - Jul 2022",
         title: "Data Analyst",
         company: "Sahu Technologies, Mumbai, IN",
         responsibilities: [
